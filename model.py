@@ -40,6 +40,8 @@ def return_instructor(drink, food, coding):
             max_count[0] = i
             max_count[1] = instructors[i]
     print(max_count)
+    if (max_count[0] == "Aaron"):
+        return "Welcome Aaron, the one and only coding god."
     return max_count[0]
     
     
