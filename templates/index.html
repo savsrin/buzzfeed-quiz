@@ -1,13 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
 <html>
     <head>
-        <title>Welcome!</title>
+        <title>Instructor Quiz</title>
+        <link rel="stylesheet" href="static/css/style.css"/>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <p>We can build a full webpage here</p>
-        <form>
-            <input type="text" name="nickname" placeholder="Enter your nickname"/>
+        <div>
+            <h1 style="text-align:center; color:Purple">Which Goldman Sachs Cohort Instructor are you?</h1>
+            <h3 style="text-align:center"> Note: This project was done in collaboration with the great minds: Razeen, Savitha & Aaron L. </h3>
+        </div>
+        <form method="post" action="/results" style="text-align:center">
+            <input type="text" name="favorite_drink" placeholder="Enter your favorite drink (coffee, tea, boba)" size="50"/>
+            <input type="text" name="favorite_food" placeholder="Enter your favorite food (!sashimi, waffles, gummy bears)"size="50"/>
+            <input type="text" name="coding_level" placeholder="Are you a coding god? (yes, no)"size="50"/>
+            <!-- <a class="button" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> "Reveal Question 4"</a>  -->
             <input type="submit" value="Submit"/>
         </form>
+  
+        
     </body>
 </html>
